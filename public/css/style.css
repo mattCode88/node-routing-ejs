@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 100px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+.main-article article {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 20px 0;
+}
+.main-article article h2 {
+  color: red;
+  margin-bottom: 15px;
+}
+.main-home {
+  text-align: center;
+  margin: 50px;
+}
+.main-home h1 {
+  color: red;
+  margin-bottom: 20px;
+}
+.main-contatti {
+  text-align: center;
+  margin: 50px;
+}
+footer {
+  text-align: center;
+}
